@@ -1,6 +1,15 @@
 # plush-trade
 trading and selling with plush toys
 
+To run:
+Make changes to hardcoded data in InputProcessor.
+
+1. Make changes to inputJson for the market entries as seen in the assignment pdf.
+2. Add possible trades by adding the directedges in addDirectionalEdgesForTrades()method in Input procerssor
+3. Now control the offered Plush toy by changing which of the plush from the nodelist we want to select
+   TradeableItem offerTradeableItem = marketFinland.getNodeList().get(1);// search this line in code base.
+   The offer search could be soemthing out of the nodelist as in one of the example in assignment. 
+
 The projec should
 1. Read input in json format
 2. Send output in json format
